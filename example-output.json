@@ -1,0 +1,140 @@
+{
+  "songs": [
+    [
+      {
+        "note": 71,
+        "duration": 19
+      },
+      {
+        "note": 76,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 23
+      },
+      {
+        "note": 78,
+        "duration": 18
+      },
+      {
+        "note": 80,
+        "duration": 14
+      },
+      {
+        "note": 0,
+        "duration": 165
+      },
+      {
+        "note": 71,
+        "duration": 19
+      },
+      {
+        "note": 76,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 25
+      },
+      {
+        "note": 81,
+        "duration": 32
+      },
+      {
+        "note": 80,
+        "duration": 58
+      },
+      {
+        "note": 0,
+        "duration": 129
+      },
+      {
+        "note": 71,
+        "duration": 19
+      },
+      {
+        "note": 76,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 25
+      }
+    ],
+    [
+      {
+        "note": 78,
+        "duration": 23
+      },
+      {
+        "note": 81,
+        "duration": 25
+      },
+      {
+        "note": 80,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 23
+      },
+      {
+        "note": 81,
+        "duration": 25
+      },
+      {
+        "note": 80,
+        "duration": 25
+      },
+      {
+        "note": 78,
+        "duration": 20
+      },
+      {
+        "note": 0,
+        "duration": 27
+      },
+      {
+        "note": 81,
+        "duration": 25
+      },
+      {
+        "note": 80,
+        "duration": 12
+      },
+      {
+        "note": 78,
+        "duration": 7
+      },
+      {
+        "note": 0,
+        "duration": 23
+      },
+      {
+        "note": 81,
+        "duration": 19
+      },
+      {
+        "note": 80,
+        "duration": 19
+      },
+      {
+        "note": 78,
+        "duration": 19
+      },
+      {
+        "note": 78,
+        "duration": 54
+      }
+    ]
+  ],
+  "play-sequence": [
+    0,
+    1
+  ]
+}

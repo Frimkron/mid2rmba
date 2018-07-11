@@ -261,10 +261,14 @@ def raw_to_rb_noteplays(raw_noteplays, min_note_len, min_rest_len, skip_num, tra
 
     for play in raw_noteplays:
 
-        tspsd = play.midi_num + transpose
+        note = play.midi_num
 
-        # silence notes that are out of playable range
-        note = tspsd if NOTE_RANGE[0] <= tspsd <= NOTE_RANGE[1] else REST
+        if note != REST:
+            # transpose        
+            tspsd = play.midi_num + transpose
+            # silence notes that are out of playable range
+            note = tspsd if NOTE_RANGE[0] <= tspsd <= NOTE_RANGE[1] else REST
+            
         notesec = play.sec
 
         # pay back borrowed duration from previous note, if possible
@@ -274,6 +278,10 @@ def raw_to_rb_noteplays(raw_noteplays, min_note_len, min_rest_len, skip_num, tra
 
         # ignore zero-length notes
         if notesec <= 0:
+            continue
+
+        # skip leading rests
+        if len(result) == 0 and note == REST:
             continue
 
         # skip intro notes and the rests between them
