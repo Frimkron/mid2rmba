@@ -1,0 +1,4 @@
+begins==0.9
+mido>=1.2.8
+PyAudio>=0.2.11
+pyserial>=3.4
